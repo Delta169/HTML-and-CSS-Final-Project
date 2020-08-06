@@ -1,0 +1,81 @@
+body{
+	background:url('media/drone-background.jpg') left no-repeat lightblue;
+}
+article{
+	display:flex;
+	width:75%;
+	justify-content:space-between;
+	overflow:auto;
+	flex-wrap:wrap;
+	min-width:400px;
+
+}
+article > section{
+	flex:1;
+	opacity:0.9;
+	padding:1%;
+	min-width:250px;
+	border:5px groove white;
+	border-radius:25px;
+	margin-right:1%;
+}
+header, footer{
+	width:75%;
+}
+audio, video{
+	margin-left:20px;
+}
+h1 {
+	text-align: center;
+	color: darkorange;
+	font-family: 'Bangers', cursive;
+	opacity:0.9;
+	font-size:36pt;
+	text-shadow:3px 3px 3px black;
+}
+
+h2 {
+	font-family: 'Anton', sans-serif;
+	color:darkorange;
+	text-shadow:3px 3px 5px black;
+	font-size:28pt;
+    text-align: center;
+}
+h3 {
+	font-family:"Calisto MT", serif;
+	color:darkorange;
+	text-shadow:3px 3px 3px black;
+	font-size:20pt;
+    text-align: center;
+}
+
+hr {
+	color:white;
+	height:6px;
+	opacity:0.3;
+}
+a{
+	margin-left:20px;
+}
+a:link{
+	color:yellow;
+	font-family:"calisto mt", calibri, cambria, serif;
+	text-decoration:underline;
+    text-align: center;
+}
+a:visited{
+	color:yellow;
+	text-decoration:underline;
+}
+a:active{
+	color:darkgoldenrod;
+	text-decoration:none;
+}
+a:hover{
+	color:white;
+	background-color:gray;
+	text-decoration:none;
+}
+.indent{
+	padding-left:20px;
+}
